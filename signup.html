@@ -11,7 +11,19 @@
 <body>
     
 
-    <form style="margin-left: 25%; margin-right: 25%; margin-bottom: 15%; padding-top:20px;">
+    <form style="margin-left: 25%; margin-right: 25%; margin-bottom: 15%; padding-top:20px; border: 1px solid grey; padding: 10px; background: whitesmoke; margin-top: 2%; border-radius: 5px;">
+        <div class="mb-3">
+            <label for="surname" class="form-label">Surname</label>
+            <input type="surname" placeholder="surname" class="form-control" id="surname" required>
+          </div>
+          <div class="mb-3">
+            <label for="firstname" class="form-label">Firstname</label>
+            <input type="firstname" placeholder="firstname" class="form-control" id="firstname" required>
+          </div>
+          <div class="mb-3">
+            <label for="othernames" class="form-label">Othernames</label>
+            <input type="othernames" placeholder="othernames" class="form-control" id="othernames" required>
+          </div>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email address</label>
           <input type="email" placeholder="email" class="form-control form-control-lg-4" id="exampleInputEmail1" required aria-describedby="emailHelp">
@@ -25,7 +37,7 @@
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-outline-secondary">Submit</button>
       </form>
 
 
